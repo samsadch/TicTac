@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/samsadcv/AndroidStudioProjects/TicTac/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\android-dev\\Desktop\\TicTac\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/samsadcv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/86263b510f96d1e757642df2e3cbc388/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "C:\\Users\\android-dev\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\aaa852186239c95d4ca76200c68ae4ec\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
