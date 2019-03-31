@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\android-dev\\Desktop\\TicTac\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "/Users/samsadcv/AndroidStudioProjects/TicTac/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\android-dev\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\aaa852186239c95d4ca76200c68ae4ec\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/86263b510f96d1e757642df2e3cbc388/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

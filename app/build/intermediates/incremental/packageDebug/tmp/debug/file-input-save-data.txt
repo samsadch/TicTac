@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Wed Mar 27 16:27:26 IST 2019
-1.base=C\:\\Users\\android-dev\\Desktop\\TicTac\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+#Sun Mar 31 20:12:41 IST 2019
+1.base=/Users/samsadcv/AndroidStudioProjects/TicTac/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=C\:\\Users\\android-dev\\Desktop\\TicTac\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+0.base=/Users/samsadcv/AndroidStudioProjects/TicTac/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 1.path=classes.dex

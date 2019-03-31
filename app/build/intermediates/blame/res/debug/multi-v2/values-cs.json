@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\android-dev\\Desktop\\TicTac\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cs\\values-cs.xml",
+            "outputFile": "/Users/samsadcv/AndroidStudioProjects/TicTac/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\android-dev\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\aaa852186239c95d4ca76200c68ae4ec\\res\\values-cs\\values-cs.xml",
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/86263b510f96d1e757642df2e3cbc388/res/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\android-dev\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\8b6fa194ac66f74654ff74007532921d\\res\\values-cs\\values-cs.xml",
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0ccab014fa3ec477eaa3a8798e22e3ca/res/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

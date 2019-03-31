@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import android.widget.Button
-import android.widget.Toast
-import com.samsad.tictacgame.dialog.PlayerWinDialog
 import kotlinx.android.synthetic.main.activity_main.*
+import android.support.design.widget.Snackbar
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
             R.id.button8->cellId=8
             R.id.button9->cellId=9
         }
-
         selectButton(cellId,selectedButton)
     }
 
@@ -49,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             currentPlayer=2
             selectedButton.text = "X"
             player1.add(cellId)
-            selectedButton.setBackgroundColor(getColor(R.color.player_color))
+            selectedButton.setBackgroundColor(getColor(R.color.google_tic_tac_color))
 
         }else {
             selectedButton.text = "O"
@@ -132,16 +131,12 @@ class MainActivity : AppCompatActivity() {
         if(winner!=-1){
             disableAllButtons()
             if(winner==1){
-                /*val dialogFragment = PlayerWinDialog
-                    .newInstance("Player 1 Wins")
-                dialogFragment.show(supportFragmentManager, "player2")*/
+                showSnackbar("Player 1 Wins")
             }else{
-               /* val dialogFragment = PlayerWinDialog
-                    .newInstance("Player 2 Wins")
-                dialogFragment.show(supportFragmentManager, "player2")*/
+              showSnackbar("Player 2 wins")
             }
-        }else{
-            //Toast.makeText(context,"It's a tie",Toast.LENGTH_LONG).show()
+        }else if(player1.size+player2.size==9){
+            showSnackbar("It's a tie")
         }
     }
 
@@ -155,5 +150,11 @@ class MainActivity : AppCompatActivity() {
         button7.isEnabled=false
         button8.isEnabled=false
         button9.isEnabled=false
+    }
+
+    fun showSnackbar(user : String){
+        val snackbar = Snackbar
+            .make(tableLayout, user, Snackbar.LENGTH_INDEFINITE)
+        snackbar.show()
     }
 }
